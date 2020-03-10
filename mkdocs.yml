@@ -1,0 +1,69 @@
+site_name: OKChain文档
+nav:
+    - 首页: index.md
+    - 快速开始:
+        - OKChain简介: getting-start/introduction.md
+#        - 单节点启动: getting-start/one_node_network.md
+#        - 创世块: getting-start/genesis.md
+    - 用户:
+      - 安装OKChain: getting-start/install.md
+      - 加入OKChain测试网络: getting-start/join_testnet.md
+      - 用命令行工具连接OKChain: getting-start/command_line.md
+    - 商户:
+      - 数字资产发行和数字资产交易对申请: getting-start/ico.md
+    - 概念:
+        - 基本概念: concepts/general-concepts.md
+        - 哨兵节点: concepts/sentry-nodes.md
+        - Genesis 文件: getting-start/genesis.md
+        - 费率模型: fee.md
+        - 链上治理: concepts/gov.md
+#        - 治理参数: governance/parameter.md
+        - 撮合系统: trade/periodic_auction.md
+        - 升级流程: concepts/upgrade-concept.md
+    - 功能模块:
+      - 用户管理: features/account.md
+      - 资产管理: features/asset.md
+      - 订单管理: features/order.md
+      - 转账模块: features/send.md
+      - 行情模块: features/backend.md
+      - 提案模块: governance/overview.md
+      - 版本升级: features/upgrade-overview.md
+
+    - 命令行客户端:
+        - Account: getting-start/command/account.md
+        - Token: getting-start/command/token.md
+        - Send: getting-start/command/send.md
+        - Order: getting-start/command/order.md
+        - Backend: getting-start/command/backend.md
+        - Governance: getting-start/command/gov.md
+#        - Multisign: getting-start/command/multisign.md
+    - API服务:
+        - HTTP API: api/http.md
+#        - WebSocket: api/websocket.md
+        - Node RPC: api/node_rpc.md
+        - SDK: api/sdk.md
+        - Msg Type: api/msg.md
+    - 工具:
+      - 监控工具: tools/monitor.md
+      - 命令行工具: tools/command.md
+#    - 撮合系统: trade/periodic_auction.md
+#    - 手续费: fee.md
+#    暂不在测试网发布选举和委托分红
+#    - 选举与分红:
+#        - 委托: staking/staking.md
+#        - 分红: staking/distr.md
+#    - 提案治理:
+#        - 概览: governance/overview.md
+#        - Text提案: governance/text.md
+#        - 参数修改提案: governance/parameter.md
+#        - 数字资产交易对申请提案: governance/dexlist.md
+#       - 版本升级提案: governance/upgrade.md
+    - 常见问题: faq.md
+#    - 相关文档链接:
+#        - Cosmos: link/cosmos.md
+#        - Cosmos Docs(v0.36.0): offical_docs/cosmos_docs/README.md
+#        - Gaia Docs(v1.0.0): offical_docs/gaia_docs/README.md
+#        - Tendermint: link/tendermint.md
+#theme: readthedocs
+theme:
+  name: 'material'
